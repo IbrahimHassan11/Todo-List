@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Redressed&family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Todo List</h1>
+    <form class="head">
+      <input class="search" type="text" name="search" placeholder="search todos">
+    </form>
+    <ul>
+      <li>
+        <span>Buy apples</span>
+        <ion-icon class="icon" name="trash-outline"></ion-icon>
+      </li>
+      <li>
+        <span>Make the bed</span>
+        <ion-icon class="icon" name="trash-outline"></ion-icon>
+      </li>
+      <li>
+        <span>make a veggie pie</span>
+        <ion-icon class="icon" name="trash-outline"></ion-icon>
+      </li>
+    </ul>
+    <h2>Add a new todo...</h2>
+    <form class="add-todo">
+      <input class="add" type="text" name="add">
+    </form>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
